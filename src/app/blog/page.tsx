@@ -9,14 +9,14 @@ import { SITE } from "@/lib/site";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Framing Contractor Insurance Blog — Guides & Insights",
+  title: "Marina Contractor Insurance Blog — Guides & Insights",
   description:
-    "Practical insurance guidance for framing & rough-carpentry contractors: general liability, workers' comp (class 5403), builder's risk, tools & equipment, and commercial auto.",
+    "Practical insurance guidance for marine & waterfront construction contractors: marine general liability, Jones Act, USL&H, workers' comp, builder's risk, equipment floaters, and commercial auto.",
   alternates: { canonical: `${SITE.url}/blog` },
   openGraph: {
-    title: "Framing Contractor Insurance Blog | Contractors Choice Agency",
+    title: "Marina Contractor Insurance Blog | Contractors Choice Agency",
     description:
-      "Practical insurance guidance for framing contractors: general liability, workers' comp, builder's risk, tools & equipment, and commercial auto.",
+      "Practical insurance guidance for marine contractors: marine general liability, Jones Act, USL&H, workers' comp, builder's risk, equipment, and commercial auto.",
     url: `${SITE.url}/blog`,
   },
 };
@@ -44,16 +44,16 @@ export default function BlogPage() {
             <FadeIn>
               <span className="pill-clay">Blog & insights</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
-                Framing contractor insurance,{" "}
+                Marina contractor insurance,{" "}
                 <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
                   decoded
                 </span>
               </h1>
               <p className="mt-5 lead max-w-2xl mx-auto">
-                Plain-English guides on the coverage that matters for framing
-                crews — general liability, workers&rsquo; comp, builder&rsquo;s
-                risk, and the tools floaters that pay when gear walks off the
-                jobsite.
+                Plain-English guides on the coverage that matters for marine
+                crews — marine general liability, Jones Act, USL&amp;H,
+                workers&rsquo; comp, builder&rsquo;s risk, and the equipment
+                floaters that pay when a barge sinks or a crane goes over.
               </p>
             </FadeIn>
           </div>
