@@ -26,11 +26,11 @@ export function FinalCTA() {
             15-minute quotes · 2-hour claims response
           </span>
           <h2 className="mt-6 font-heading font-extrabold text-cream text-3xl md:text-5xl leading-[1.1]">
-            Protect Your Framing Operation{" "}
-            <span className="text-gold-light">with coverage built for the trade.</span>
+            Protect Your Marine Operation{" "}
+            <span className="text-gold-light">with coverage built for the water.</span>
           </h2>
           <p className="mt-5 text-cream/90 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-            Whether you need general liability today or a full program — workers&rsquo; comp, builder&rsquo;s risk, tools, and umbrella — one call gets you real quotes from specialty trades markets. Not a voicemail and a two-week wait.
+            Whether you need marine general liability today or a full program — Jones Act, USL&amp;H, workers&rsquo; comp, builder&rsquo;s risk, equipment, and umbrella — one call gets you real quotes from specialty marine markets. Not a voicemail and a two-week wait.
           </p>
           <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link

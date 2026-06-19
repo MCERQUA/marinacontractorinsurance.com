@@ -12,7 +12,7 @@ export function Stats() {
         className="absolute inset-0 opacity-60"
         style={{
           background:
-            "radial-gradient(circle at 18% 30%, rgba(232,163,61,0.18) 0%, transparent 45%), radial-gradient(circle at 82% 70%, rgba(184,67,31,0.20) 0%, transparent 50%)",
+            "radial-gradient(circle at 18% 30%, rgba(233,196,106,0.18) 0%, transparent 45%), radial-gradient(circle at 82% 70%, rgba(231,111,81,0.20) 0%, transparent 50%)",
         }}
         aria-hidden
       />

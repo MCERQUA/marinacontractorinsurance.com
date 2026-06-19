@@ -2,13 +2,13 @@
 
 import { motion } from "motion/react";
 import {
-  MapPin, CalendarCheck, HardHat, Timer, Zap, Award,
+  MapPin, CalendarCheck, HardHat, Timer, Zap, Award, Anchor,
 } from "lucide-react";
 import { CREDENTIALS } from "@/lib/site";
 import { FadeIn } from "@/components/animations/FadeIn";
 
 const ICONS = {
-  MapPin, CalendarCheck, HardHat, Timer, Zap, Award,
+  MapPin, CalendarCheck, HardHat, Timer, Zap, Award, Anchor,
 } as const;
 
 export function TrustBar() {

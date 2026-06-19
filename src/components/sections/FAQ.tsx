@@ -32,7 +32,7 @@ export function FAQ({
           <h2 className="mt-3 h-section">
             {title ?? (
               <>
-                Framing contractor insurance,{" "}
+                Marina contractor insurance,{" "}
                 <span className="text-clay">in plain English</span>.
               </>
             )}

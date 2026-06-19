@@ -3,13 +3,13 @@
 import Link from "next/link";
 import {
   ShieldCheck, HardHat, Truck, Building2, Wrench, FileCheck,
-  Umbrella, Factory, ArrowRight,
+  Umbrella, Anchor, ArrowRight,
 } from "lucide-react";
 import { SERVICES } from "@/lib/site";
 import { FadeIn } from "@/components/animations/FadeIn";
 
 const ICONS = {
-  ShieldCheck, HardHat, Truck, Building2, Wrench, FileCheck, Umbrella, Factory,
+  ShieldCheck, HardHat, Truck, Building2, Wrench, FileCheck, Umbrella, Anchor,
 } as const;
 
 export function ServicesGrid() {
@@ -23,17 +23,17 @@ export function ServicesGrid() {
           </span>
           <h2 className="mt-3 h-section">
             Coverage built specifically for{" "}
-            <span className="text-clay">framing contractors</span>.
+            <span className="text-clay">marine contractors</span>.
           </h2>
           <p className="mt-4 lead">
-            Standard markets exclude work at height and misclassify carpentry crews. We build programs designed for the way framers actually work.
+            Standard markets exclude over-water work and miss the Jones Act / USL&amp;H gap entirely. We build programs designed for the way marine contractors actually work.
           </p>
         </FadeIn>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {SERVICES.map((service, i) => {
             const Icon = ICONS[service.icon as keyof typeof ICONS] ?? ShieldCheck;
-            const isFeatured = service.slug === "general-liability";
+            const isFeatured = service.slug === "marine-general-liability";
             return (
               <FadeIn key={service.slug} delay={(i % 4) * 0.05}>
                 <Link

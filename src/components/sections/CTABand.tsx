@@ -11,8 +11,8 @@ interface CTABandProps {
 }
 
 export function CTABand({
-  title = "Ready to protect your framing operation?",
-  description = "Get a 15-minute quote from specialists who understand framing — GL, workers' comp, builder's risk, tools, and auto.",
+  title = "Ready to protect your marine operation?",
+  description = "Get a 15-minute quote from specialists who understand over-water work — marine GL, Jones Act, USL&H, builder's risk, equipment, and auto.",
 }: CTABandProps) {
   return (
     <section className="relative bg-cream py-16 md:py-20">
@@ -23,7 +23,7 @@ export function CTABand({
               className="absolute inset-0 opacity-70"
               style={{
                 background:
-                  "radial-gradient(circle at 20% 20%, rgba(224,164,90,0.18) 0%, transparent 45%), radial-gradient(circle at 80% 80%, rgba(181,101,29,0.22) 0%, transparent 50%)",
+                  "radial-gradient(circle at 20% 20%, rgba(233,196,106,0.18) 0%, transparent 45%), radial-gradient(circle at 80% 80%, rgba(231,111,81,0.22) 0%, transparent 50%)",
               }}
               aria-hidden
             />
