@@ -1,10 +1,10 @@
 import type { Config } from "tailwindcss";
 
 /* ============================================================
-   FRAMING CONTRACTOR INSURANCE — "Timber Frame" palette
+   MARINA CONTRACTOR INSURANCE — "Harbor" palette
    Token NAMES are inherited from the shared component architecture;
-   VALUES are remapped to forest-green (primary) / copper (secondary) / amber (accent).
-   clay = forest green · sage = copper · gold = amber · cream = paper · sand = stone
+   VALUES are remapped to ocean navy (primary) / sunset coral (secondary) / sand-gold (accent).
+   clay = deep ocean navy · sage = sunset coral · gold = warm sand-gold · cream = paper · sand = sand
    ============================================================ */
 
 const config: Config = {
@@ -18,58 +18,58 @@ const config: Config = {
       colors: {
         // === Backgrounds ===
         cream: "#FBF8F3",          // page background (warm paper)
-        sand: "#F2EDE3",           // alt section bg (stone)
+        sand: "#F0EBE3",           // alt section bg (sand)
         white: "#FFFFFF",          // cards
-        // === Primary — Forest Green (token name: clay) ===
+        // === Primary — Deep Ocean Navy (token name: clay) ===
         clay: {
-          DEFAULT: "#1F4D3A",      // primary — deep framing forest green
-          dark: "#163A2C",
-          light: "#2E6B52",
-          50: "#ECF3F0",
-          100: "#CFE2D9",
-          200: "#A3C5B3",
-          300: "#6FA689",
-          400: "#3E8362",
-          500: "#2E6B52",
-          600: "#1F4D3A",
-          700: "#163A2C",
-          800: "#0F2A20",
-          900: "#091A13",
+          DEFAULT: "#0B3D5C",      // primary — deep ocean navy
+          dark: "#072B41",
+          light: "#155779",
+          50: "#EAF1F5",
+          100: "#C9DEEA",
+          200: "#94BCD3",
+          300: "#5E97B8",
+          400: "#2F769B",
+          500: "#155779",
+          600: "#0B3D5C",
+          700: "#072B41",
+          800: "#041C2B",
+          900: "#02101A",
         },
-        // === Secondary — Copper / Terracotta (token name: sage) ===
+        // === Secondary — Sunset Coral (token name: sage) ===
         sage: {
-          DEFAULT: "#B5651D",      // secondary — copper / warm terracotta
-          dark: "#8F4E14",
-          light: "#D08A3E",
-          50: "#FBF1E9",
-          100: "#F5DFC9",
-          200: "#ECC091",
-          300: "#DFA45A",
-          400: "#CE8534",
-          500: "#B5651D",
-          600: "#8F4E14",
-          700: "#6F3C10",
+          DEFAULT: "#E76F51",      // secondary — sunset coral
+          dark: "#C8553A",
+          light: "#F08C73",
+          50: "#FDF0EC",
+          100: "#F9DACE",
+          200: "#F2B2A0",
+          300: "#EB8B71",
+          400: "#E76F51",
+          500: "#C8553A",
+          600: "#A8442E",
+          700: "#823322",
         },
-        // === Accent — Amber (token name: gold) ===
+        // === Accent — Warm Sand-Gold (token name: gold) ===
         gold: {
-          DEFAULT: "#E0A45A",      // accent — warm amber highlight
-          dark: "#C2853A",
-          light: "#ECC391",
-          50: "#FBF3E8",
-          100: "#F7E6CE",
-          200: "#ECC391",
-          300: "#E0A45A",
-          400: "#D9A441",
-          500: "#C2853A",
-          600: "#9C671B",
+          DEFAULT: "#E9C46A",      // accent — warm sand-gold
+          dark: "#C9A14A",
+          light: "#F1D89A",
+          50: "#FBF5E6",
+          100: "#F7EBC8",
+          200: "#F1D89A",
+          300: "#E9C46A",
+          400: "#DDB451",
+          500: "#C9A14A",
+          600: "#9C7829",
         },
         // === Text ===
-        espresso: "#1A2620",       // headings (deep green-charcoal ink)
-        cocoa: "#3F4A44",          // body (graphite-green)
-        mocha: "#6B7872",          // muted (slate)
+        espresso: "#0E2230",       // headings (deep navy-charcoal ink)
+        cocoa: "#36495A",          // body (slate-navy)
+        mocha: "#6B7B89",          // muted (slate)
         // === Borders / dividers ===
-        adobe: "#E2DCD0",          // warm birch border
-        adobeDark: "#D0C8B8",
+        adobe: "#DEE2E0",          // soft sand border
+        adobeDark: "#CDD3D1",
       },
       fontFamily: {
         heading: ["var(--font-heading)", "system-ui", "sans-serif"],
@@ -83,19 +83,19 @@ const config: Config = {
       },
       backgroundImage: {
         "sunrise-bands":
-          "linear-gradient(180deg, #FBF8F3 0%, #F4EFE4 40%, #FBF1E6 70%, #FBF8F3 100%)",
+          "linear-gradient(180deg, #FBF8F3 0%, #F0EBE3 40%, #FBF1E6 70%, #FBF8F3 100%)",
         "warm-radial":
-          "radial-gradient(circle at 30% 20%, rgba(181,101,29,0.10) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(31,77,58,0.07) 0%, transparent 55%)",
-        "clay-gradient": "linear-gradient(135deg, #1F4D3A 0%, #2E6B52 100%)",
-        "sage-gradient": "linear-gradient(135deg, #B5651D 0%, #D08A3E 100%)",
-        "gold-gradient": "linear-gradient(135deg, #E0A45A 0%, #ECC391 100%)",
+          "radial-gradient(circle at 30% 20%, rgba(231,111,81,0.10) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(11,61,92,0.07) 0%, transparent 55%)",
+        "clay-gradient": "linear-gradient(135deg, #0B3D5C 0%, #155779 100%)",
+        "sage-gradient": "linear-gradient(135deg, #E76F51 0%, #F08C73 100%)",
+        "gold-gradient": "linear-gradient(135deg, #E9C46A 0%, #F1D89A 100%)",
       },
       boxShadow: {
-        warm: "0 10px 40px -15px rgba(31, 77, 58, 0.20), 0 4px 12px -6px rgba(26, 38, 32, 0.08)",
-        "warm-lg": "0 30px 70px -20px rgba(31, 77, 58, 0.25), 0 10px 30px -10px rgba(26, 38, 32, 0.10)",
-        card: "0 2px 8px -2px rgba(26, 38, 32, 0.06), 0 1px 3px -1px rgba(26, 38, 32, 0.04)",
-        "card-hover": "0 20px 50px -15px rgba(31, 77, 58, 0.22), 0 8px 20px -8px rgba(26, 38, 32, 0.10)",
-        arch: "inset 0 -8px 30px -10px rgba(31, 77, 58, 0.10)",
+        warm: "0 10px 40px -15px rgba(11, 61, 92, 0.20), 0 4px 12px -6px rgba(14, 34, 48, 0.08)",
+        "warm-lg": "0 30px 70px -20px rgba(11, 61, 92, 0.25), 0 10px 30px -10px rgba(14, 34, 48, 0.10)",
+        card: "0 2px 8px -2px rgba(14, 34, 48, 0.06), 0 1px 3px -1px rgba(14, 34, 48, 0.04)",
+        "card-hover": "0 20px 50px -15px rgba(11, 61, 92, 0.22), 0 8px 20px -8px rgba(14, 34, 48, 0.10)",
+        arch: "inset 0 -8px 30px -10px rgba(11, 61, 92, 0.10)",
       },
       keyframes: {
         "fade-up": {
