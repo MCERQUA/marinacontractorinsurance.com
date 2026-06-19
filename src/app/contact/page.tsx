@@ -8,7 +8,7 @@ import { SITE } from "@/lib/site";
 import { CheckCircle2, ArrowRight, Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 
 const WEBHOOK_URL =
-  "https://josh.jam-bot.com/social-api/api/leads/webhook/netlify?tenant=josh&site=framingcontractorinsurance.com";
+  "https://josh.jam-bot.com/social-api/api/leads/webhook/netlify?tenant=josh&site=marinacontractorinsurance.com";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
