@@ -1,4 +1,4 @@
-import { Sora, Inter } from "next/font/google";
+import { Manrope, Inter } from "next/font/google";
 
 // Body font — Inter (clean, legible for dense coverage copy)
 export const bodyFont = Inter({
@@ -8,8 +8,8 @@ export const bodyFont = Inter({
   display: "swap",
 });
 
-// Heading font — Sora (geometric, structural, modern framing feel)
-export const headingFont = Sora({
+// Heading font — Manrope (modern, confident nautical/modern feel)
+export const headingFont = Manrope({
   subsets: ["latin"],
   variable: "--font-heading",
   weight: ["400", "600", "700", "800"],

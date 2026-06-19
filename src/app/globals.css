@@ -3,31 +3,31 @@
 @tailwind utilities;
 
 /* ============================================================
-   FRAMING CONTRACTOR INSURANCE — "Timber Frame" Design System
-   Light · corporate · stud-wall + blueprint-grid motif
-   (token NAMES inherited; VALUES remapped: clay=forest green, sage=copper, gold=amber)
+   MARINA CONTRACTOR INSURANCE — "Harbor" Design System
+   Light · corporate · water-wave + nautical rope motif
+   (token NAMES inherited; VALUES remapped: clay=ocean navy, sage=sunset coral, gold=sand-gold)
    ============================================================ */
 
 @layer base {
   :root {
     /* Backgrounds */
     --bg-cream: #FBF8F3;       /* paper */
-    --bg-sand: #F2EDE3;        /* stone */
+    --bg-sand: #F0EBE3;        /* sand */
     --bg-white: #FFFFFF;
 
     /* Brand */
-    --clay: #1F4D3A;           /* primary — forest green */
-    --clay-dark: #163A2C;
-    --sage: #B5651D;           /* secondary — copper */
-    --gold: #E0A45A;           /* accent — amber */
+    --clay: #0B3D5C;           /* primary — deep ocean navy */
+    --clay-dark: #072B41;
+    --sage: #E76F51;           /* secondary — sunset coral */
+    --gold: #E9C46A;           /* accent — warm sand-gold */
 
     /* Text */
-    --espresso: #1A2620;       /* headings */
-    --cocoa: #3F4A44;          /* body */
-    --mocha: #6B7872;          /* muted */
+    --espresso: #0E2230;       /* headings */
+    --cocoa: #36495A;          /* body */
+    --mocha: #6B7B89;          /* muted */
 
     /* Border */
-    --adobe: #E2DCD0;          /* birch */
+    --adobe: #DEE2E0;          /* soft sand */
 
     --radius: 1rem;
   }
@@ -58,7 +58,7 @@
   }
 
   ::selection {
-    background: rgba(31, 77, 58, 0.16);
+    background: rgba(11, 61, 92, 0.16);
     color: var(--espresso);
   }
 }
@@ -105,7 +105,7 @@
     @apply bg-white rounded-3xl border border-adobe shadow-card
            hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300;
   }
-  /* Frame card — white card with a forest→copper→amber stud top edge */
+  /* Wave card — white card with a navy→coral→sand wave top edge */
   .card-arch {
     @apply bg-white border border-adobe shadow-card rounded-3xl
            relative overflow-hidden hover:shadow-card-hover
@@ -118,7 +118,7 @@
     left: 0;
     right: 0;
     height: 6px;
-    background: linear-gradient(90deg, #1F4D3A 0%, #2E6B52 22%, #B5651D 55%, #E0A45A 100%);
+    background: linear-gradient(90deg, #0B3D5C 0%, #155779 22%, #E76F51 55%, #E9C46A 100%);
   }
   .pill {
     @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full
@@ -146,54 +146,54 @@
     @apply text-lg md:text-xl text-mocha leading-relaxed;
   }
 
-  /* === Decorative motifs — stud-wall + blueprint grid === */
+  /* === Decorative motifs — water waves + nautical rope === */
   .bg-sonoran {
     background-color: var(--bg-cream);
     background-image:
-      radial-gradient(circle at 15% 15%, rgba(181, 101, 29, 0.08) 0%, transparent 35%),
-      radial-gradient(circle at 85% 75%, rgba(31, 77, 58, 0.06) 0%, transparent 40%);
+      radial-gradient(circle at 15% 15%, rgba(231, 111, 81, 0.08) 0%, transparent 35%),
+      radial-gradient(circle at 85% 75%, rgba(11, 61, 92, 0.06) 0%, transparent 40%);
   }
   .bg-sonoran-sand {
     background-color: var(--bg-sand);
     background-image:
-      radial-gradient(circle at 70% 20%, rgba(31, 77, 58, 0.06) 0%, transparent 45%),
-      radial-gradient(circle at 20% 80%, rgba(181, 101, 29, 0.07) 0%, transparent 40%);
+      radial-gradient(circle at 70% 20%, rgba(11, 61, 92, 0.06) 0%, transparent 45%),
+      radial-gradient(circle at 20% 80%, rgba(231, 111, 81, 0.07) 0%, transparent 40%);
   }
   .bg-warm-radial {
     background:
-      radial-gradient(ellipse at top, rgba(181, 101, 29, 0.10) 0%, transparent 55%),
-      radial-gradient(ellipse at bottom right, rgba(31, 77, 58, 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at top, rgba(231, 111, 81, 0.10) 0%, transparent 55%),
+      radial-gradient(ellipse at bottom right, rgba(11, 61, 92, 0.06) 0%, transparent 50%),
       var(--bg-cream);
   }
-  /* Stud-wall band — stacked framing layers (green / copper / amber) */
+  /* Wave band — layered water lines (navy / coral / sand) */
   .horizon-band {
     background: linear-gradient(180deg,
-      #1F4D3A 0% 16%,
-      #B5651D 16% 30%,
-      #E0A45A 30% 44%,
-      #B5651D 44% 58%,
-      #1F4D3A 58% 72%,
-      #B5651D 72% 86%,
-      #E0A45A 86% 100%
+      #0B3D5C 0% 16%,
+      #E76F51 16% 30%,
+      #E9C46A 30% 44%,
+      #E76F51 44% 58%,
+      #0B3D5C 58% 72%,
+      #E76F51 72% 86%,
+      #E9C46A 86% 100%
     );
   }
-  /* Blueprint grid texture for hero / CTA bands */
+  /* Ripple texture for hero / CTA bands */
   .grain {
     background-image:
-      linear-gradient(rgba(31,77,58,0.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(31,77,58,0.05) 1px, transparent 1px),
+      linear-gradient(rgba(11,61,92,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(11,61,92,0.05) 1px, transparent 1px),
       repeating-linear-gradient(92deg,
-        rgba(31,77,58,0.0) 0px,
-        rgba(31,77,58,0.0) 10px,
+        rgba(11,61,92,0.0) 0px,
+        rgba(11,61,92,0.0) 10px,
         rgba(255,255,255,0.025) 10px,
         rgba(255,255,255,0.025) 11px);
     background-size: 48px 48px, 48px 48px, auto;
   }
   .dotted-warm {
-    background-image: radial-gradient(circle, rgba(31, 77, 58, 0.14) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(11, 61, 92, 0.14) 1px, transparent 1px);
     background-size: 24px 24px;
   }
-  /* Stud divider — short stacked framing member */
+  /* Cleat divider — short stacked nautical rope/wave */
   .arch-divider {
     position: relative;
     height: 3rem;
@@ -207,11 +207,11 @@
     width: 10rem;
     height: 1.4rem;
     background: linear-gradient(90deg,
-      #1F4D3A 0% 16%,
-      #B5651D 16% 38%,
-      #E0A45A 38% 60%,
-      #B5651D 60% 82%,
-      #1F4D3A 82% 100%);
+      #0B3D5C 0% 16%,
+      #E76F51 16% 38%,
+      #E9C46A 38% 60%,
+      #E76F51 60% 82%,
+      #0B3D5C 82% 100%);
     border-radius: 0.5rem;
     opacity: 0.92;
   }
@@ -235,7 +235,7 @@
   .prose-warm li {
     @apply text-cocoa leading-relaxed pl-7 relative;
   }
-  /* Stud-tick bullet — small green/copper/amber framing mark */
+  /* Wave-tick bullet — small navy/coral/sand water mark */
   .prose-warm li::before {
     content: "";
     position: absolute;
@@ -243,7 +243,7 @@
     top: 0.55em;
     width: 1.1rem;
     height: 0.5rem;
-    background: linear-gradient(90deg, #1F4D3A 0% 30%, #B5651D 30% 65%, #E0A45A 65% 100%);
+    background: linear-gradient(90deg, #0B3D5C 0% 30%, #E76F51 30% 65%, #E9C46A 65% 100%);
     border-radius: 0.15rem;
     opacity: 0.9;
   }
