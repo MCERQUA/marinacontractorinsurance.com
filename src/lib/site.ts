@@ -1,14 +1,14 @@
 // Centralized site data — used across nav, footer, schema, CTAs
-// Framing Contractor Insurance — wood framing / rough carpentry contractors
+// Marina Contractor Insurance — dock, pier, marina & waterfront construction contractors
 
 export const SITE = {
-  name: "Framing Contractor Insurance",
-  legalName: "Framing Contractor Insurance (by Contractors Choice Agency)",
-  domain: "framingcontractorinsurance.com",
-  url: "https://framingcontractorinsurance.com",
-  tagline: "Insurance for Wood Framing & Rough Carpentry Contractors",
+  name: "Marina Contractor Insurance",
+  legalName: "Marina Contractor Insurance (by Contractors Choice Agency)",
+  domain: "marinacontractorinsurance.com",
+  url: "https://marinacontractorinsurance.com",
+  tagline: "Insurance for Marina, Dock & Waterfront Construction Contractors",
   description:
-    "Specialized commercial insurance for framing contractors and rough carpentry crews — general liability, workers' comp (class 5403), builder's risk, tools & equipment floaters, commercial auto, and commercial property. Fall, nail-gun, and saw exposures underwritten right. Licensed all 50 states.",
+    "Specialized commercial insurance for marine construction contractors — dock & pier construction, marina build & repair, boat lifts, dredging, seawalls, revetments, and pile driving over water. Marine general liability, Jones Act & USL&H (Longshore) coverage, workers' comp, builder's risk, equipment floaters, commercial auto, and umbrella. Maritime exposures underwritten right. Licensed all 50 states.",
   phone: "844-967-5247",
   phoneAlt: "855-336-7189",
   phoneHref: "tel:+18449675247",
@@ -40,149 +40,149 @@ export const NAV_LINKS = [
 
 export const SERVICES = [
   {
+    slug: "marine-general-liability",
+    title: "Marine General Liability Insurance",
+    short: "Core coverage for over-water operations",
+    description:
+      "Third-party bodily injury and property damage protection for your marine construction operations — built for over-water work that standard general liability excludes. Covers docks, piers, marinas, seawalls, and waterfront projects, including the watercraft and over-water exposures most GL policies strip out.",
+    icon: "ShieldCheck",
+    keywords: ["marine general liability", "marina contractor liability insurance", "over water work insurance", "dock construction liability", "pier builder insurance"],
+  },
+  {
+    slug: "jones-act-uslh",
+    title: "Jones Act & USL&H (Longshore) Coverage",
+    short: "The critical maritime worker coverage",
+    description:
+      "Maritime worker protection that standard workers' comp does NOT provide. The Jones Act covers your crew on navigable waters, and USL&H (Longshore and Harbor Workers' Compensation Act) covers over-water marine construction. If your crew works over water — pile driving, dock work, dredging — this coverage is mandatory and frequently overlooked.",
+    icon: "Anchor",
+    keywords: ["jones act insurance", "uslh coverage", "longshore harbor workers comp", "maritime workers comp", "marine construction workers comp"],
+  },
+  {
     slug: "general-liability",
     title: "General Liability Insurance",
-    short: "For framing & rough carpentry operations",
+    short: "For upland & landside marina operations",
     description:
-      "Third-party bodily injury and property damage protection for your framing crews, jobsites, and subcontracted work — including products-completed operations and the GC certificates that get you onto the project.",
+      "Third-party bodily injury and property damage protection for your landside marina operations — staging yards, fabrication shops, upland site work, and any operation that stays ashore. Paired with marine GL to close the gap where the waterline begins.",
     icon: "ShieldCheck",
-    keywords: ["framing contractor general liability", "rough carpentry insurance", "framing subcontractor GL", "CG 00 01 framing", "framer liability insurance"],
+    keywords: ["marina contractor general liability", "dock builder GL insurance", "contractor liability insurance waterfront", "upland marine operations insurance"],
   },
   {
     slug: "workers-compensation",
     title: "Workers' Compensation",
-    short: "Class 5403 carpentry — fall & saw exposures",
+    short: "Pile drivers, divers & marine crews",
     description:
-      "Coverage for the injury patterns unique to framing crews — falls from height, nail-gun and saw lacerations, struck-by and material-handling injuries — with correct class 5403 coding so you're not overpaying or underinsured.",
+      "Coverage for the injury patterns unique to marine construction — falls into the water, struck-by pile and crane loads, dive injuries, and equipment amputations — correctly coded for marine trades. Coordinated with Jones Act and USL&H so there are no gaps between your landside and over-water crews.",
     icon: "HardHat",
-    keywords: ["framing contractor workers comp", "class 5403 workers compensation", "carpentry workers comp", "framer fall injury insurance", "nail gun injury workers comp"],
+    keywords: ["marina contractor workers comp", "marine construction workers comp", "pile driver workers comp", "commercial diver insurance", "waterfront contractor workers comp"],
   },
   {
     slug: "commercial-auto",
     title: "Commercial Auto Insurance",
-    short: "Trucks, trailers & lumber delivery",
+    short: "Trucks, trailers & dock-section haulers",
     description:
-      "Coverage for the pickup trucks, dump trailers, and lumber haulers that move your crew and materials between jobsites — including hired/non-owned and loading liability.",
+      "Coverage for the pickup trucks, dump trailers, lowboys, and material haulers that move your crew, pile sections, and dock materials between the yard and the launch — including hired/non-owned vehicles and loading liability.",
     icon: "Truck",
-    keywords: ["framing contractor commercial auto", "contractor truck insurance", "lumber delivery insurance", "trailer insurance carpenter", "hired non owned auto contractor"],
+    keywords: ["marina contractor commercial auto", "marine construction truck insurance", "dock material hauling insurance", "trailer insurance marine contractor", "hired non owned auto contractor"],
+  },
+  {
+    slug: "inland-marine-equipment",
+    title: "Inland Marine / Equipment Insurance",
+    short: "Barges, cranes, pile drivers, dredges & tugs",
+    description:
+      "Scheduled equipment coverage for the high-value marine gear that makes over-water work possible — barges, crane-mounted pile drivers, dredges, tug boats, workboats, air compressors, and hydraulic equipment. Coverage that follows your gear onto the water and between jobsites.",
+    icon: "Wrench",
+    keywords: ["marine equipment insurance", "barge insurance", "pile driver equipment insurance", "dredge insurance", "crane insurance marine contractor", "contractors equipment floater"],
   },
   {
     slug: "builders-risk",
     title: "Builder's Risk Insurance",
-    short: "The structure & materials you're framing",
+    short: "Docks, piers & marinas under construction",
     description:
-      "Course-of-construction coverage for the building you're framing — lumber packages, installed materials, and labor — against fire, wind, theft, and vandalism while the project is open to loss.",
+      "Course-of-construction coverage for the dock, pier, marina, or waterfront structure you're building — pile sections, decking, materials, and labor in place — against fire, wind, storm, theft, and vandalism while the project is open to loss over the water.",
     icon: "Building2",
-    keywords: ["builders risk framing contractor", "course of construction insurance", "framing phase insurance", "lumber theft insurance jobsite", "soft cost builders risk"],
-  },
-  {
-    slug: "inland-marine-equipment",
-    title: "Tools & Equipment / Inland Marine",
-    short: "Nail guns, saws, compressors & trailers",
-    description:
-      "Scheduled tools-and-equipment coverage for the pneumatic nailers, miter saws, generators, and compressors that walk off jobsites — plus installation floaters that cover materials in transit to the frame.",
-    icon: "Wrench",
-    keywords: ["framing tools insurance", "contractor tools and equipment floater", "inland marine carpenter", "stolen tools insurance", "installation floater framing"],
-  },
-  {
-    slug: "property",
-    title: "Commercial Property Insurance",
-    short: "Shop, yard, office & inventory",
-    description:
-      "All-risk property coverage for the framer's shop, storage yard, prefab wall-panel facility, and lumber/inventory — built for the combustible loading and hot-work exposures of a wood operation.",
-    icon: "Factory",
-    keywords: ["framer commercial property insurance", "carpenter shop insurance", "wall panel plant insurance", "lumber yard property insurance", "contractor property coverage"],
+    keywords: ["builder's risk marine construction", "dock builder risk insurance", "pier construction insurance", "marina construction course of construction", "waterfront builder risk"],
   },
   {
     slug: "umbrella-excess-liability",
     title: "Umbrella / Excess Liability",
     short: "Limits to $10M+",
     description:
-      "Layered limits above your GL, auto, and employers' liability — essential when a fall, a framed-structure fire, or a multi-party jobsite loss could otherwise exhaust your primary coverage.",
+      "Layered limits above your marine GL, auto, and employers' liability — essential when a drowning, a crane collapse over water, or a multi-party waterfront loss could otherwise exhaust your primary coverage. Maritime losses trend high; this is the layer that protects your business.",
     icon: "Umbrella",
-    keywords: ["framing contractor umbrella insurance", "excess liability carpenter", "contractor umbrella policy", "high limit liability framing", "jobsite liability umbrella"],
-  },
-  {
-    slug: "contractors-bonds",
-    title: "Contractor's License & Surety Bonds",
-    short: "License, permit & performance bonds",
-    description:
-      "The bonds that keep you legal and competitive — state contractor license bonds, permit bonds, and bid/performance bonds for the GCs and developers who require them before you set the first plate.",
-    icon: "FileCheck",
-    keywords: ["framing contractor license bond", "contractor surety bond", "performance bond carpenter", "permit bond framing", "bid bond contractor"],
+    keywords: ["marina contractor umbrella insurance", "excess liability marine construction", "marine contractor umbrella policy", "high limit liability waterfront", "jones act umbrella"],
   },
 ] as const;
 
 export const LOCATIONS = [
   {
-    slug: "texas-southwest",
-    name: "Texas & the Southwest",
-    region: "TX · NM · AZ",
+    slug: "gulf-coast",
+    name: "Gulf Coast",
+    region: "TX · LA · MS · AL · FL Panhandle",
     blurb:
-      "The busiest framing market in the country. We insure Texas and Southwest framing crews running high-volume residential production, master-planned communities, and fast turnaround on slab-on-grade builds.",
+      "The busiest marine construction market in the country. We insure Gulf Coast marina contractors building and repairing docks, piers, seawalls, and waterfront structures across the bayou, bays, and Intracoastal Waterway — hurricane-zone over-water work that demands real maritime coverage.",
   },
   {
-    slug: "southeast",
-    name: "U.S. Southeast",
+    slug: "florida-southeast",
+    name: "Florida & the Southeast",
     region: "Florida · Georgia · Carolinas",
     blurb:
-      "Hurricane-zone framing underwriting for Southeast crews — wind and named-storm exposure, Florida building code compliance, and high-volume coastal and inland residential production.",
+      "Florida and Southeast marina contractors running dock, pier, and boat-lift work in the country's largest recreational-boating market. Programs built for hurricane-zone over-water construction, seawall and revetment repair, and year-round marine operations.",
   },
   {
-    slug: "rocky-mountain",
-    name: "Rocky Mountain West",
-    region: "Colorado · Idaho · Utah",
+    slug: "chesapeake-mid-atlantic",
+    name: "Chesapeake & Mid-Atlantic",
+    region: "Maryland · Virginia · Delaware · NJ",
     blurb:
-      "Front-Range and Intermountain West framing operations. Programs sized for crews serving the region's booming residential and multifamily construction with snow and elevation exposures.",
+      "Chesapeake Bay and Mid-Atlantic marine construction — dock and pier builders, marina operators, and shoreline contractors working the Bay's vast waterfront. Coverage tuned to the region's tidal, freeze-thaw, and navigable-water Jones Act/USL&H exposures.",
+  },
+  {
+    slug: "new-england-northeast",
+    name: "New England & Northeast",
+    region: "ME · NH · MA · RI · CT · NY",
+    blurb:
+      "New England and Northeast marina contractors building and repairing the region's iconic coastal docks, wharves, and yacht clubs. Programs built for hard-winter pile driving, ice damage repair, and the Northeast's demanding coastal permitting environment.",
+  },
+  {
+    slug: "great-lakes",
+    name: "Great Lakes",
+    region: "MI · WI · MN · OH · IL · IN · PA · NY",
+    blurb:
+      "Great Lakes marine construction — dock, pier, seawall, and marina contractors working freshwater ports and inland waterways. Coverage tuned to the Lakes' navigable-water status, Jones Act/USL&H interplay, and freeze-cycle pile damage.",
   },
   {
     slug: "pacific-northwest",
     name: "Pacific Northwest",
-    region: "Oregon · Washington",
+    region: "Washington · Oregon",
     blurb:
-      "PNW framing contractors running wet-climate, seismic-zone builds. Coverage that accounts for tight energy-code framing, engineered lumber, and year-round wet jobsite conditions.",
+      "PNW marine contractors running tidal, wet-climate over-water construction — docks, piers, floats, and marine facilities along Puget Sound and the coast. Coverage built for tidal pile driving, dive work, and the region's rigorous aquatic-permitting environment.",
   },
   {
-    slug: "desert-west",
-    name: "Desert West",
-    region: "Arizona · Nevada",
-    blurb:
-      "Phoenix, Las Vegas, and Tucson framing operations. Programs for high-volume desert residential production, slab construction, and rapid crew mobilization across master-planned developments.",
-  },
-  {
-    slug: "great-lakes",
-    name: "Great Lakes & Midwest",
-    region: "Michigan · Ohio · Illinois · Indiana",
-    blurb:
-      "Midwest framing contractors serving suburban and rural residential markets. Coverage for seasonal build cycles, freeze/thaw framing conditions, and crew variability.",
-  },
-  {
-    slug: "northeast",
-    name: "Northeast & Mid-Atlantic",
-    region: "NY · NJ · PA · New England",
-    blurb:
-      "Northeast framers running dense residential, remodel, and addition work. Coverage that meets the region's strict licensing, winter build limitations, and historic-district requirements.",
-  },
-  {
-    slug: "california-west",
+    slug: "california-west-coast",
     name: "California & West Coast",
     region: "California",
     blurb:
-      "Seismic-zone and wildfire-exposure underwriting for California framing contractors. Programs built for Title 24 framing, WUI builds, and the state's demanding CSLB licensing environment.",
+      "California marina and waterfront construction — dock, pier, marina, and seawall contractors working the coast, bays, and harbors. Programs built for the Coastal Act, sea-level-rise resilience work, and the state's demanding CSLB and aquatic-permitting environment.",
+  },
+  {
+    slug: "texas-louisiana-gulf",
+    name: "Texas & Louisiana Gulf",
+    region: "Texas Gulf Coast · Louisiana",
+    blurb:
+      "Texas and Louisiana Gulf marine construction — the heavy industrial end of over-water work: deep pile driving, dredging, offshore support, and major waterfront facilities. Programs sized for heavy marine equipment, named-storm exposure, and Jones Act crews.",
   },
 ] as const;
 
 export const CREDENTIALS = [
   { label: "Licensed in all 50 states", icon: "MapPin" },
   { label: "Founded 2005 — 20+ years", icon: "CalendarCheck" },
-  { label: "Former framer on staff", icon: "HardHat" },
+  { label: "Jones Act & USL&H specialists", icon: "Anchor" },
   { label: "15-minute quote turnaround", icon: "Timer" },
   { label: "2-hour claims response", icon: "Zap" },
   { label: "A.M. Best A+ carrier partners", icon: "Award" },
 ] as const;
 
 export const STATS = [
-  { value: 600, suffix: "+", label: "Framing crews insured nationwide", prefix: "" },
+  { value: 400, suffix: "+", label: "Marine contractors insured nationwide", prefix: "" },
   { value: 20, suffix: "+", label: "Years insuring trades contractors", prefix: "" },
   { value: 15, suffix: " min", label: "Average quote turnaround", prefix: "" },
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
@@ -191,23 +191,23 @@ export const STATS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Every general contractor we frame for needs a GL certificate with us named additional insured before we can roll. CCA turns those around in minutes and built a program that actually covers our falls and nail-gun claims — not the generic handyman policy our last broker sold us.",
-    name: "Marcus T.",
-    role: "Framing Company Owner",
-    location: "Texas",
-  },
-  {
-    quote:
-      "When a lumber package walked off our jobsite overnight, the tools-and-equipment floater CCA set up paid out fast and we kept the schedule. They get that a framing crew lives and dies by its gear and its materials.",
-    name: "Daniela R.",
-    role: "Operations Manager",
+      "Every marina we build for needs a GL certificate with over-water coverage, and our old broker kept handing us policies that excluded the actual work. CCA placed real marine GL with Jones Act and USL&H wrapped in, and we finally have a program that covers a crew on a barge — not just a crew on dirt.",
+    name: "Captain Dan R.",
+    role: "Marine Construction Owner",
     location: "Florida",
   },
   {
     quote:
-      "Our workers' comp was coded as generic construction and we were getting killed on premium. CCA re-classed us properly under 5403, documented our fall-protection program, and dropped our rate while increasing coverage. Wish we'd switched years ago.",
+      "When a crane on our barge went over during a pile-driving job, the equipment floater CCA set up paid out fast and kept the project moving. They actually understand marine gear — barges, pile drivers, dredges — which no generic broker did.",
+    name: "Marcus T.",
+    role: "Operations Manager",
+    location: "Louisiana",
+  },
+  {
+    quote:
+      "We were carrying plain workers' comp and had no idea our pile-driving crew on navigable water wasn't covered — it needed USL&H. CCA found the gap, fixed it, and built a coordinated program across our landside and over-water operations. That call probably saved our business.",
     name: "Tyler J.",
-    role: "Crew Owner",
-    location: "Colorado",
+    role: "Dock & Pier Contractor",
+    location: "Maryland",
   },
 ] as const;
