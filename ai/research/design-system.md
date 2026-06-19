@@ -1,6 +1,6 @@
 # Design System — Marina Contractor Insurance ("Harbor")
 
-Light, corporate, waterfront-modern. Distinct from sibling CCA sites (NOT the green/copper "Timber Frame" framing identity).
+Light, corporate, waterfront-modern. Distinct from sibling CCA sites (NOT the green/copper earth-toned identity of other trade sites).
 
 ## Palette (Tailwind token NAMES are shared across the component architecture; VALUES remapped here)
 - **Primary — deep ocean navy** (`clay`): `#0B3D5C`, dark `#072B41`, light `#155779`

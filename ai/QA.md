@@ -26,7 +26,7 @@
 - Certificates & additional-insured endorsements turned around fast for marina owners, ports, Army Corps.
 - Agency: Contractors Choice Agency, Chandler AZ, founded 2005, NPN 8608479, licensed all 50 states.
 
-## Distinct identity (vs. framing/glulam sites)
-- Harbor palette, NOT green/copper. Navy `#0B3D5C`, coral `#E76F51`, sand-gold `#E9C46A`.
+## Distinct identity (vs. other trade sites in the batch)
+- Harbor palette, NOT the green/copper earth tones. Navy `#0B3D5C`, coral `#E76F51`, sand-gold `#E9C46A`.
 - Manrope + Inter (not Sora).
 - Water-wave + nautical motif (horizon-band = wave gradient, Anchor logo icon).
