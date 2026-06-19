@@ -112,10 +112,10 @@ export function Hero() {
                   </div>
                   <div>
                     <p className="font-heading font-extrabold text-espresso text-2xl leading-none">
-                      600+
+                      400+
                     </p>
                     <p className="text-xs text-mocha mt-1 leading-snug">
-                      Framing crews insured — residential, commercial & multifamily
+                      Marine contractors insured — docks, piers & marinas
                     </p>
                   </div>
                 </div>

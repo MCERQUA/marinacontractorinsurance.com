@@ -13,17 +13,17 @@ export function WhyChooseUs() {
           <FadeIn className="lg:col-span-5 lg:sticky lg:top-28">
             <span className="eyebrow">
               <span className="h-px w-8 bg-clay" />
-              Why framers switch to us
+              Why marine contractors switch to us
             </span>
             <h2 className="mt-3 h-section">
               The coverage gaps that{" "}
-              <span className="text-clay">cost framing contractors</span> the most.
+              <span className="text-clay">sink marine contractors</span> the most.
             </h2>
             <p className="mt-4 lead">
-              Most agents hand a framer a generic contractor policy and call it done. Then a fall
-              claim hits and the height exclusion kicks in — or the lumber walks off the site and
-              there&rsquo;s no coverage at all. We underwrite the parts of your operation everyone
-              else leaves out.
+              Most agents hand a marine contractor a generic policy and call it done. Then a crew
+              member is hurt on navigable water and there&rsquo;s no Jones Act or USL&amp;H coverage —
+              or the barge sinks and the equipment isn&rsquo;t scheduled. We underwrite the maritime
+              parts of your operation everyone else leaves out.
             </p>
 
             <div className="mt-8 rounded-3xl bg-white border border-adobe shadow-card p-6">
@@ -33,12 +33,12 @@ export function WhyChooseUs() {
                 </span>
                 <div>
                   <p className="font-heading font-bold text-espresso">
-                    Run by people who know the trades
+                    Run by people who know marine work
                   </p>
                   <p className="text-sm text-mocha mt-1 leading-relaxed">
                     Contractors Choice Agency was founded in 2005 by people from the trades. We&rsquo;ve
-                    walked framing jobsites, read the height exclusions, and know what a stolen nailer
-                    or a fall claim really costs a crew.
+                    been on marine jobsites, read the watercraft exclusions, and know what a missing
+                    Jones Act policy or a sunken barge really costs a crew.
                   </p>
                 </div>
               </div>

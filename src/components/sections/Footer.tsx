@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, Mail, MapPin, Clock, Hammer, ShieldCheck } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Anchor, ShieldCheck } from "lucide-react";
 import { SITE, SERVICES, LOCATIONS } from "@/lib/site";
 
 export function Footer() {
@@ -14,10 +14,10 @@ export function Footer() {
         <div className="container-wide py-10 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <p className="font-heading font-bold text-2xl text-cream">
-              Ready to protect your framing operation?
+              Ready to protect your marine operation?
             </p>
             <p className="text-cream/70 mt-1">
-              15-minute quotes. 2-hour claims response. Insurance for framing and rough-carpentry contractors nationwide.
+              15-minute quotes. 2-hour claims response. Insurance for marina, dock, and waterfront construction contractors nationwide.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -37,11 +37,11 @@ export function Footer() {
         <div className="col-span-2 lg:col-span-2">
           <div className="flex items-center gap-2.5 mb-4">
             <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-clay-gradient">
-              <Hammer className="h-5 w-5 text-white" strokeWidth={2.4} />
+              <Anchor className="h-5 w-5 text-white" strokeWidth={2.4} />
             </span>
             <span className="flex flex-col leading-none">
               <span className="font-heading font-extrabold text-cream text-lg">
-                Framing
+                Marina
               </span>
               <span className="font-heading font-semibold text-gold text-[0.65rem] uppercase tracking-[0.18em]">
                 Contractor Insurance
@@ -49,7 +49,7 @@ export function Footer() {
             </span>
           </div>
           <p className="text-cream/70 text-sm leading-relaxed max-w-sm">
-            Specialized insurance for wood framing and rough-carpentry contractors — general liability, workers&rsquo; comp, builder&rsquo;s risk, tools &amp; equipment floaters, and commercial auto. A division of Contractors Choice Agency — founded 2005, licensed all 50 states.
+            Specialized insurance for marine construction contractors — marine general liability, Jones Act &amp; USL&amp;H, workers&rsquo; comp, builder&rsquo;s risk, equipment floaters, and commercial auto. A division of Contractors Choice Agency — founded 2005, licensed all 50 states.
           </p>
           <div className="mt-5 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10">
             <ShieldCheck className="h-4 w-4 text-sage-light" />
