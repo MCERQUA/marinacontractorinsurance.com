@@ -38,7 +38,7 @@ export default function ContactPage() {
       await fetch(WEBHOOK_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ form_name: "contact", source: "framingcontractorinsurance.com", ...formData }),
+        body: JSON.stringify({ form_name: "contact", source: "marinacontractorinsurance.com", ...formData }),
       });
       setSubmitted(true);
     } catch {
@@ -69,11 +69,11 @@ export default function ContactPage() {
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
                 Let&rsquo;s talk about your{" "}
                 <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
-                  framing contractor coverage
+                  marine contractor coverage
                 </span>
               </h1>
               <p className="mt-5 lead max-w-2xl mx-auto">
-                Questions, a quote, or a claim — reach a person who knows framing, not a queue.
+                Questions, a quote, or a claim — reach a person who knows marine construction, not a queue.
               </p>
             </FadeIn>
           </div>
@@ -158,7 +158,7 @@ export default function ContactPage() {
 
                   <div>
                     <label htmlFor="email" className={labelClass}>Email *</label>
-                    <input id="email" name="email" type="email" required value={formData.email} onChange={handleChange} placeholder="jane@smithframing.com" className={inputClass} />
+                    <input id="email" name="email" type="email" required value={formData.email} onChange={handleChange} placeholder="dan@harbordock.com" className={inputClass} />
                   </div>
 
                   <div>
@@ -168,7 +168,7 @@ export default function ContactPage() {
 
                   <div>
                     <label htmlFor="message" className={labelClass}>Message *</label>
-                    <textarea id="message" name="message" rows={5} required value={formData.message} onChange={handleChange} placeholder="Tell us about your framing operation or question…" className={`${inputClass} resize-none`} />
+                    <textarea id="message" name="message" rows={5} required value={formData.message} onChange={handleChange} placeholder="Tell us about your marine operation or question…" className={`${inputClass} resize-none`} />
                   </div>
 
                   {error && <p className="text-red-600 text-sm font-medium">{error}</p>}
