@@ -22,7 +22,7 @@ export function Hero() {
     <section className="relative overflow-hidden bg-warm-radial pt-32 pb-20 md:pt-40 md:pb-28">
       {/* Decorative stud band at top */}
       <div className="absolute top-24 inset-x-0 h-px horizon-band opacity-70" aria-hidden />
-      {/* Framing stud motif */}
+      {/* Wave motif */}
       <div className="absolute right-6 bottom-0 w-3 h-64 horizon-band opacity-30 hidden lg:block rounded-full" aria-hidden />
 
       <div className="container-wide relative">
