@@ -100,14 +100,14 @@ export default function RootLayout({
     },
     areaServed: { "@type": "Country", name: "United States" },
     serviceType: [
-      "General Liability Insurance for Framing Contractors",
-      "Workers' Compensation for Framing Crews (Class 5403)",
-      "Commercial Auto Insurance for Contractor Trucks & Trailers",
-      "Builder's Risk Insurance for Framing Projects",
-      "Tools & Equipment / Inland Marine for Framers",
-      "Commercial Property Insurance for Framers' Shops & Yards",
+      "Marine General Liability Insurance for Marine Contractors",
+      "Jones Act & USL&H (Longshore) Coverage for Maritime Crews",
+      "General Liability Insurance for Upland Marina Operations",
+      "Workers' Compensation for Marine Construction Crews",
+      "Commercial Auto Insurance for Marine Contractor Trucks & Trailers",
+      "Inland Marine / Equipment Insurance for Barges, Cranes & Dredges",
+      "Builder's Risk Insurance for Dock, Pier & Marina Projects",
       "Umbrella / Excess Liability Insurance",
-      "Contractor License & Surety Bonds",
     ],
   };
 
