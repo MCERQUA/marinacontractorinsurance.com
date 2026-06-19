@@ -22,16 +22,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!loc) return {};
   const url = `${SITE.url}/locations/${slug}`;
   return {
-    title: `Framing Contractor Insurance — ${loc.name}`,
-    description: `${loc.blurb} General liability, workers' comp, builder's risk, and tools & equipment for ${loc.name} framing contractors. 15-minute quotes.`,
+    title: `Marina Contractor Insurance — ${loc.name}`,
+    description: `${loc.blurb} Marine general liability, Jones Act & USL&H, workers' comp, builder's risk, and equipment for ${loc.name} marine contractors. 15-minute quotes.`,
     alternates: { canonical: url },
     openGraph: {
-      title: `Framing Contractor Insurance — ${loc.name} | Contractors Choice Agency`,
+      title: `Marina Contractor Insurance — ${loc.name} | Contractors Choice Agency`,
       description: loc.blurb,
       url,
-      images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: `Framing contractor insurance in ${loc.name}` }],
+      images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: `Marina contractor insurance in ${loc.name}` }],
     },
-    twitter: { card: "summary_large_image", title: `Framing Contractor Insurance — ${loc.name}`, description: loc.blurb },
+    twitter: { card: "summary_large_image", title: `Marina Contractor Insurance — ${loc.name}`, description: loc.blurb },
   };
 }
 
@@ -55,7 +55,7 @@ export default async function LocationPage({ params }: Props) {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "InsuranceService",
-    name: `Framing Contractor Insurance — ${loc.name}`,
+    name: `Marina Contractor Insurance — ${loc.name}`,
     description: loc.blurb,
     url,
     areaServed: { "@type": "Place", name: loc.name },
@@ -101,7 +101,7 @@ export default async function LocationPage({ params }: Props) {
                   {loc.name} · {loc.region}
                 </span>
                 <h1 className="mt-4 font-heading font-extrabold text-espresso text-4xl md:text-5xl leading-[1.08] tracking-tight">
-                  Framing contractor insurance —{" "}
+                  Marina contractor insurance —{" "}
                   <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
                     {loc.name}
                   </span>
@@ -122,8 +122,8 @@ export default async function LocationPage({ params }: Props) {
               <FadeIn direction="left" className="lg:col-span-5">
                 <div className="rounded-t-[10rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
                   <img
-                    src="/images/lumber-package.jpg"
-                    alt={`Framing jobsite and lumber package in ${loc.name}`}
+                    src="/images/marina-build.jpg"
+                    alt={`Marine construction and dock building in ${loc.name}`}
                     className="w-full h-[300px] md:h-[360px] object-cover"
                     loading="lazy"
                   />
@@ -136,13 +136,13 @@ export default async function LocationPage({ params }: Props) {
         <section className="bg-cream py-16 md:py-20">
           <div className="container-tight">
             <FadeIn className="max-w-2xl mb-10">
-              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} framers</span>
+              <span className="eyebrow"><span className="h-px w-8 bg-clay" />Coverage for {loc.name} marine contractors</span>
               <h2 className="mt-3 h-section">
-                The full program, built for {loc.name} framing contractors.
+                The full program, built for {loc.name} marine contractors.
               </h2>
               <p className="mt-4 lead">
-                From a small residential crew to a high-volume production framer,
-                we coordinate every line a {loc.name} framing contractor needs.
+                From a small dock-building crew to a heavy marine construction operation,
+                we coordinate every line a {loc.name} marine contractor needs.
               </p>
             </FadeIn>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -169,7 +169,7 @@ export default async function LocationPage({ params }: Props) {
           eyebrow={`${loc.name} — FAQ`}
           title={
             <>
-              Framing insurance questions for{" "}
+              Marine insurance questions for{" "}
               <span className="text-clay">{loc.name}</span>
             </>
           }
@@ -177,8 +177,8 @@ export default async function LocationPage({ params }: Props) {
         />
 
         <CTABand
-          title={`Insuring framing contractors in ${loc.name} since 2005`}
-          description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`}
+          title={`Insuring marine contractors in ${loc.name} since 2005`}
+          description={`Regional waterway knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`}
         />
       </main>
       <Footer />

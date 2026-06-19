@@ -9,23 +9,23 @@ import { SITE, CREDENTIALS } from "@/lib/site";
 import { ArrowRight, HardHat, ShieldCheck, Award, Handshake } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Framing Contractor Insurance | Contractors Choice Agency",
+  title: "About Marina Contractor Insurance | Contractors Choice Agency",
   description:
-    "Framing Contractor Insurance is the trades-focused division of Contractors Choice Agency, founded in 2005 by former contractor Josh Cotner. General liability, workers' comp, builder's risk, and tools coverage for framing crews. Licensed all 50 states.",
+    "Marina Contractor Insurance is the marine-focused division of Contractors Choice Agency, founded in 2005. Marine general liability, Jones Act & USL&H, workers' comp, builder's risk, and equipment coverage for dock, pier, and waterfront construction crews. Licensed all 50 states.",
   alternates: { canonical: `${SITE.url}/about` },
 };
 
 const values = [
-  { icon: HardHat, title: "Trades-first, always", desc: "Josh spent years in the trades before starting the agency. We speak the language of framing because we know what happens when coverage fails at claim time." },
-  { icon: ShieldCheck, title: "Coverage that closes the gaps", desc: "Height exclusions, stolen tools, and jobsite lumber theft — we address the exposures standard markets miss or exclude." },
-  { icon: Award, title: "A-rated markets only", desc: "We shop carriers with the financial strength and trades experience to be there when a fall or fire claim hits." },
-  { icon: Handshake, title: "Honest, no-pressure advice", desc: "If you don't need a line of coverage, we'll tell you. We earn trust by being straight about what your crew actually requires." },
+  { icon: HardHat, title: "Maritime-first, always", desc: "We know the Jones Act, USL&H, and the watercraft exclusions that generic brokers miss. We speak the language of marine construction because we know what happens when over-water coverage fails at claim time." },
+  { icon: ShieldCheck, title: "Coverage that closes the gaps", desc: "Missing Jones Act coverage, unscheduled barges, and watercraft exclusions — we address the maritime exposures standard markets miss or exclude." },
+  { icon: Award, title: "A-rated marine markets only", desc: "We shop carriers with the financial strength and marine-construction experience to be there when a drowning, crane collapse, or storm loss hits." },
+  { icon: Handshake, title: "Honest, no-pressure advice", desc: "If you don't need a line of coverage, we'll tell you. We earn trust by being straight about what your marine crew actually requires." },
 ];
 
 const timeline = [
   { year: "2005", title: "Contractors Choice Agency founded", desc: "Josh Cotner opens CCA in Chandler, AZ, after years working in the trades — built to insure contractors the right way." },
-  { year: "20 yrs", title: "Expanded to specialty trades markets", desc: "After placing programs for dozens of contractor categories, CCA deepens its focus on framing and rough-carpentry crews with unique risk profiles." },
-  { year: "Today", title: "Dedicated framing contractor division", desc: "Framing Contractor Insurance focuses CCA's expertise on framers — crews where falls, nail-gun injuries, and jobsite theft are the real risks." },
+  { year: "20 yrs", title: "Expanded to marine & maritime markets", desc: "After placing programs for dozens of contractor categories, CCA deepens its focus on marine and waterfront construction crews with unique over-water risk profiles." },
+  { year: "Today", title: "Dedicated marina contractor division", desc: "Marina Contractor Insurance focuses CCA's expertise on marine contractors — crews where Jones Act gaps, sunken equipment, and over-water losses are the real risks." },
 ];
 
 export default function AboutPage() {
@@ -48,16 +48,17 @@ export default function AboutPage() {
             <FadeIn>
               <span className="pill-clay">About us</span>
               <h1 className="mt-5 font-heading font-extrabold text-espresso text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight">
-                Built by a contractor,{" "}
+                Built for the{" "}
                 <span className="bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">
-                  for framers
+                  water
                 </span>
                 .
               </h1>
               <p className="mt-6 lead">
-                Framing Contractor Insurance is the trades-focused division of Contractors
-                Choice Agency — founded in 2005 by Josh Cotner, a former contractor who knows
-                exactly what happens when a height exclusion shows up in a fall-claim denial.
+                Marina Contractor Insurance is the marine-focused division of Contractors
+                Choice Agency — founded in 2005 and built to insure the over-water work that
+                standard contractors carriers routinely exclude. We know exactly what happens
+                when a Jones Act gap shows up in a maritime-injury denial.
               </p>
               <div className="mt-7 flex flex-col sm:flex-row gap-3">
                 <Link href="/quote" className="btn-primary">Get a quote <ArrowRight className="h-5 w-5" /></Link>
@@ -68,7 +69,7 @@ export default function AboutPage() {
               <div className="rounded-t-[12rem] rounded-b-3xl overflow-hidden border-4 border-white shadow-warm-lg">
                 <img
                   src="/images/crew-portrait.jpg"
-                  alt="A framing contractor on a residential build site"
+                  alt="A marine construction crew on a dock build over water"
                   className="w-full h-[360px] md:h-[440px] object-cover"
                   loading="lazy"
                 />
