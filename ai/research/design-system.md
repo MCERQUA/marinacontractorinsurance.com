@@ -1,23 +1,24 @@
-# Design System — Framing Contractor Insurance ("Timber Frame")
+# Design System — Marina Contractor Insurance ("Harbor")
 
-Light, corporate, trades-industrial. Distinct from sibling CCA sites.
+Light, corporate, waterfront-modern. Distinct from sibling CCA sites (NOT the green/copper "Timber Frame" framing identity).
 
 ## Palette (Tailwind token NAMES are shared across the component architecture; VALUES remapped here)
-- **Primary — forest green** (`clay`): `#1F4D3A` (deep framing green), dark `#163A2C`, light `#2E6B52`
-- **Secondary — copper / terracotta** (`sage`): `#B5651D`, dark `#8F4E14`, light `#D08A3E`
-- **Accent — amber** (`gold`): `#E0A45A`
-- Backgrounds: `cream #FBF8F3`, `sand #F2EDE3`, white
-- Text: `espresso #1A2620` (headings), `cocoa #3F4A44` (body), `mocha #6B7872` (muted)
-- Border: `adobe #E2DCD0`
+- **Primary — deep ocean navy** (`clay`): `#0B3D5C`, dark `#072B41`, light `#155779`
+- **Secondary — sunset coral** (`sage`): `#E76F51`, dark `#C8553A`, light `#F08C73`
+- **Accent — warm sand-gold** (`gold`): `#E9C46A`
+- Backgrounds: `cream #FBF8F3`, `sand #F0EBE3`, white
+- Text: `espresso #0E2230` (headings), `cocoa #36495A` (body), `mocha #6B7B89` (muted)
+- Border: `adobe #DEE2E0`
 
 ## Typography
-- Headings: **Sora** (geometric, structural) via next/font
+- Headings: **Manrope** (modern, confident nautical feel) via next/font
 - Body: **Inter**
 
 ## Motifs
-- **Stud-wall band** (`horizon-band`): stacked green→copper→amber framing layers
-- **Blueprint grid** (`grain`): faint engineering grid texture for hero/CTA bands
-- Frame top-edge accent on cards (`card-arch::before`): green→copper→amber
+- **Water-wave band** (`horizon-band`): layered navy→coral→sand water lines
+- **Ripple texture** (`grain`): faint wave/ripple grid texture for hero/CTA bands
+- Wave top-edge accent on cards (`card-arch::before`): navy→coral→sand
+- Nautical rope/cleat divider (`arch-divider`): stacked navy/coral/sand wave mark
 
 ## Components & motion
 - motion (Framer) staggered hero entrances, scroll-reveal (`FadeIn`), count-up stats (`Counter`)
@@ -25,6 +26,6 @@ Light, corporate, trades-industrial. Distinct from sibling CCA sites.
 - All animations honor `prefers-reduced-motion`
 
 ## Generated imagery (11, HF FLUX.1-schnell)
-hero, framing-walls, truss-roof, jobsite, crew-portrait, commercial-build,
-scaffold-safety, lumber-package, blueprint-tools, nail-gun-action, og-image.
-Warm natural-wood tones with forest-green/copper accents; photorealistic, no text.
+hero, dock-construction, pile-driving, barge-crane, marina-build, marine-crew,
+waterfront-project, marine-fabrication-shop, marine-trucks, crew-portrait, og-image.
+Ocean navy / sunset coral / sand-gold tones; photorealistic marine construction, no text.

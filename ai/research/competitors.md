@@ -1,21 +1,27 @@
-# Competitor Landscape — Framing Contractor Insurance
+# Competitor Landscape — Marina Contractor Insurance
 
-## Direct / adjacent (contractor insurance specialists)
+## Direct / adjacent (contractor & marine insurance specialists)
 - National contractor-insurance agencies (Next Insurance, Hiscox, biBERK, CoverWallet) — broad,
-  generic small-business contractor coverage; often exclude height work and lack trades nuance.
-- Regional contractor brokers in TX/FL/Southeast framing markets.
-- Captive carriers (State Farm, Farmers) writing generic carpentry GL.
+  generic small-business contractor coverage; routinely miss the Jones Act / USL&H gap and exclude
+  over-water work via the watercraft exclusion.
+- Marine-specific brokers (Marine Agency, Red Shield, Ocean Marine) — write marine, but often
+  focused on cargo/vessels rather than marine construction contractors.
+- Regional marine brokers in Gulf, Florida, Chesapeake, and PNW markets.
+- Captive carriers (State Farm, Farmers) writing generic contractor GL that excludes watercraft.
 
-## Our wedge (why framers switch to CCA)
-1. **GL without height exclusions** — most cheap online policies exclude 2- and 3-story work,
-   roof framing, and truss setting. We place height-friendly GL.
-2. **Correct class 5403 workers' comp coding** — competitors mis-classify framers, causing
-   overcharges or audit/claim problems.
-3. **Coordinated builder's risk + tools floater** — closes the two most common framing losses
-   (lumber theft, tool theft) that generic policies miss.
-4. **Fast certificates & additional-insured endorsements** — minutes, not days, for GCs.
-5. **Trades-native broker** — former contractor on staff; no explaining the jobsite.
+## Our wedge (why marine contractors switch to CCA)
+1. **Jones Act & USL&H placed right** — most contractors brokers don't know crew on navigable
+   water aren't covered by standard workers' comp. We place the maritime coverage the law requires.
+2. **True marine general liability** — we remove the watercraft / over-water exclusion that generic
+   GL carries, so over-water claims aren't denied.
+3. **Coordinated equipment + hull + P&I** — barges, cranes, pile drivers, dredges, and vessels
+   scheduled at replacement cost, with no gap between "marine equipment" and "vessel."
+4. **Marine builder's risk** — covers wave, storm-surge, and named-storm exposure on docks/piers
+   under construction that inland builder's risk doesn't price correctly.
+5. **Fast certificates & additional-insured endorsements** — minutes, not days, for marina owners,
+   ports, and the Army Corps of Engineers.
 
 ## Positioning
-Specialty trades broker for framers, a division of Contractors Choice Agency (est. 2005),
-licensed all 50 states, A-rated markets. Not a generic small-business insurer.
+Specialty marine-construction broker, a division of Contractors Choice Agency (est. 2005),
+licensed all 50 states, A-rated markets. Not a generic small-business insurer — and not a
+cargo-only marine broker. Built for over-water construction.

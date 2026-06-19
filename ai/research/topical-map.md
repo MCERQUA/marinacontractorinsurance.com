@@ -1,35 +1,35 @@
-# Topical Map — Framing Contractor Insurance
+# Topical Map — Marina Contractor Insurance
 
-## Pillar: Framing Contractor Insurance (homepage)
-The umbrella program for wood framing & rough-carpentry crews.
+## Pillar: Marina Contractor Insurance (homepage)
+The umbrella program for marine & waterfront construction crews — docks, piers, marinas, seawalls, dredging, pile driving.
 
 ## Cluster 1 — Coverage lines (service pages)
-- General Liability for Framing Contractors (height exclusions, additional insured)
-- Workers' Compensation — class 5403 carpentry (falls, nail-gun, saw)
-- Commercial Auto — trucks, trailers, lumber hauling
-- Builder's Risk — the structure & materials being framed
-- Tools & Equipment / Inland Marine — nail guns, saws, generators
-- Commercial Property — shop, yard, panel plant, inventory
-- Umbrella / Excess Liability — limits for GC requirements
-- Contractor License & Surety Bonds — license, permit, bid/performance
+- Marine General Liability (over-water operations, watercraft exclusion fix) — featured "Core coverage"
+- Jones Act & USL&H (Longshore) — the critical maritime worker coverage
+- General Liability (upland / landside marina operations)
+- Workers' Compensation — coordinated with Jones Act/USL&H (pile drivers, divers)
+- Commercial Auto — trucks, trailers, lowboys hauling dock sections/materials
+- Inland Marine / Equipment — barges, cranes, pile drivers, dredges, tugs
+- Builder's Risk — dock/pier/marina construction in progress
+- Umbrella / Excess Liability — limits for ports, Corps, marina owners
 
 ## Cluster 2 — Cost & buying (blog)
-- How much does framing contractor insurance cost?
-- Workers' comp class 5403 explained
-- Why your GL height exclusion could sink your business
-- Builder's risk vs. tools floater
-- Stopping jobsite lumber & tool theft
+- Jones Act vs. USL&H: what marina contractors must carry
+- Why standard GL won't cover your over-water work
+- Marina contractor insurance cost (2026 guide)
+- Pile driving & dredge equipment coverage
+- Dock & pier builder's risk explained
 
-## Cluster 3 — Geography (location pages)
-- Texas & Southwest · Southeast · Rocky Mountain · Pacific Northwest ·
-  Desert West · Great Lakes/Midwest · Northeast/Mid-Atlantic · California
+## Cluster 3 — Geography (location pages — waterfront regions)
+- Gulf Coast · Florida & Southeast · Chesapeake/Mid-Atlantic · New England/Northeast ·
+  Great Lakes · Pacific Northwest · California/West Coast · Texas & Louisiana Gulf
 
 ## Cluster 4 — Trust & company (about, coverage, contact, quote)
 - Licensed all 50 states, NPN 8608479, founded 2005, A-rated carriers
-- 15-min quotes, 2-hour claims response, former framer on staff
+- 15-min quotes, 2-hour claims response, Jones Act & USL&H specialists
 
 ## Internal linking
 Homepage → services → service detail → quote
-Service detail → related services
+Service detail → related services (e.g., marine GL ↔ Jones Act/USL&H)
 Location → top services → quote
 Blog post → related service + quote
