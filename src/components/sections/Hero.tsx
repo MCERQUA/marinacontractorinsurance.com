@@ -32,7 +32,7 @@ export function Hero() {
             <motion.div {...item}>
               <span className="pill-clay">
                 <span className="h-1.5 w-1.5 rounded-full bg-clay animate-pulse" />
-                Residential · Commercial · Multifamily
+                Docks · Piers · Marinas · Seawalls
               </span>
             </motion.div>
 
@@ -40,12 +40,12 @@ export function Hero() {
               {...item}
               className="mt-5 font-heading font-extrabold text-espresso text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-6xl leading-[1.05] tracking-tight"
             >
-              Framing contractor insurance that covers{" "}
-              <span className="relative z-10 bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">your biggest risks</span>.
+              Marina contractor insurance that covers{" "}
+              <span className="relative z-10 bg-gradient-to-r from-clay via-clay-light to-gold-dark bg-clip-text text-transparent">your over-water risks</span>.
             </motion.h1>
 
             <motion.p {...item} className="mt-6 lead max-w-xl">
-              General liability, workers&rsquo; comp, builder&rsquo;s risk, and tools floaters — purpose-built for framing and rough-carpentry crews. Fall, nail-gun, and saw exposures underwritten right. A-rated carriers. 15-minute quotes.
+              Marine general liability, Jones Act &amp; USL&amp;H, workers&rsquo; comp, builder&rsquo;s risk, and equipment floaters — purpose-built for dock, pier, marina, and waterfront construction crews. Maritime exposures underwritten right. A-rated carriers. 15-minute quotes.
             </motion.p>
 
             <motion.div {...item} className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -92,7 +92,7 @@ export function Hero() {
               <div className="relative overflow-hidden rounded-t-[6rem] rounded-b-3xl shadow-warm-lg border-4 border-white">
                 <img
                   src="/images/hero.jpg"
-                  alt="Framing crew raising an exterior wall on a new home build"
+                  alt="Marine construction crew driving piles and building a dock over water"
                   className="w-full h-[420px] md:h-[520px] object-cover"
                   loading="eager"
                 />
