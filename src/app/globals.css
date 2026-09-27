@@ -16,15 +16,15 @@
     --bg-white: #FFFFFF;
 
     /* Brand */
-    --clay: #0B3D5C;           /* primary — deep ocean navy */
-    --clay-dark: #072B41;
+    --clay: #134E3A;           /* primary — deep pine green (was ocean navy) */
+    --clay-dark: #0D3A2B;
     --sage: #E76F51;           /* secondary — sunset coral */
     --gold: #E9C46A;           /* accent — warm sand-gold */
 
     /* Text */
-    --espresso: #0E2230;       /* headings */
-    --cocoa: #36495A;          /* body */
-    --mocha: #6B7B89;          /* muted */
+    --espresso: #1C1A17;       /* headings */
+    --cocoa: #3F3A35;          /* body */
+    --mocha: #6B625A;          /* muted */
 
     /* Border */
     --adobe: #DEE2E0;          /* soft sand */
@@ -58,7 +58,7 @@
   }
 
   ::selection {
-    background: rgba(11, 61, 92, 0.16);
+    background: rgba(19, 78, 58, 0.16);
     color: var(--espresso);
   }
 }
@@ -118,7 +118,7 @@
     left: 0;
     right: 0;
     height: 6px;
-    background: linear-gradient(90deg, #0B3D5C 0%, #155779 22%, #E76F51 55%, #E9C46A 100%);
+    background: linear-gradient(90deg, #134E3A 0%, #1D6B50 22%, #E76F51 55%, #E9C46A 100%);
   }
   .pill {
     @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full
@@ -151,28 +151,28 @@
     background-color: var(--bg-cream);
     background-image:
       radial-gradient(circle at 15% 15%, rgba(231, 111, 81, 0.08) 0%, transparent 35%),
-      radial-gradient(circle at 85% 75%, rgba(11, 61, 92, 0.06) 0%, transparent 40%);
+      radial-gradient(circle at 85% 75%, rgba(19, 78, 58, 0.06) 0%, transparent 40%);
   }
   .bg-sonoran-sand {
     background-color: var(--bg-sand);
     background-image:
-      radial-gradient(circle at 70% 20%, rgba(11, 61, 92, 0.06) 0%, transparent 45%),
+      radial-gradient(circle at 70% 20%, rgba(19, 78, 58, 0.06) 0%, transparent 45%),
       radial-gradient(circle at 20% 80%, rgba(231, 111, 81, 0.07) 0%, transparent 40%);
   }
   .bg-warm-radial {
     background:
       radial-gradient(ellipse at top, rgba(231, 111, 81, 0.10) 0%, transparent 55%),
-      radial-gradient(ellipse at bottom right, rgba(11, 61, 92, 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(19, 78, 58, 0.06) 0%, transparent 50%),
       var(--bg-cream);
   }
   /* Wave band — layered water lines (navy / coral / sand) */
   .horizon-band {
     background: linear-gradient(180deg,
-      #0B3D5C 0% 16%,
+      #134E3A 0% 16%,
       #E76F51 16% 30%,
       #E9C46A 30% 44%,
       #E76F51 44% 58%,
-      #0B3D5C 58% 72%,
+      #134E3A 58% 72%,
       #E76F51 72% 86%,
       #E9C46A 86% 100%
     );
@@ -180,17 +180,17 @@
   /* Ripple texture for hero / CTA bands */
   .grain {
     background-image:
-      linear-gradient(rgba(11,61,92,0.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(11,61,92,0.05) 1px, transparent 1px),
+      linear-gradient(rgba(19,78,58,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(19,78,58,0.05) 1px, transparent 1px),
       repeating-linear-gradient(92deg,
-        rgba(11,61,92,0.0) 0px,
-        rgba(11,61,92,0.0) 10px,
+        rgba(19,78,58,0.0) 0px,
+        rgba(19,78,58,0.0) 10px,
         rgba(255,255,255,0.025) 10px,
         rgba(255,255,255,0.025) 11px);
     background-size: 48px 48px, 48px 48px, auto;
   }
   .dotted-warm {
-    background-image: radial-gradient(circle, rgba(11, 61, 92, 0.14) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(19, 78, 58, 0.14) 1px, transparent 1px);
     background-size: 24px 24px;
   }
   /* Cleat divider — short stacked nautical rope/wave */
@@ -207,11 +207,11 @@
     width: 10rem;
     height: 1.4rem;
     background: linear-gradient(90deg,
-      #0B3D5C 0% 16%,
+      #134E3A 0% 16%,
       #E76F51 16% 38%,
       #E9C46A 38% 60%,
       #E76F51 60% 82%,
-      #0B3D5C 82% 100%);
+      #134E3A 82% 100%);
     border-radius: 0.5rem;
     opacity: 0.92;
   }
@@ -243,7 +243,7 @@
     top: 0.55em;
     width: 1.1rem;
     height: 0.5rem;
-    background: linear-gradient(90deg, #0B3D5C 0% 30%, #E76F51 30% 65%, #E9C46A 65% 100%);
+    background: linear-gradient(90deg, #134E3A 0% 30%, #E76F51 30% 65%, #E9C46A 65% 100%);
     border-radius: 0.15rem;
     opacity: 0.9;
   }

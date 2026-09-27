@@ -22,19 +22,19 @@ const config: Config = {
         white: "#FFFFFF",          // cards
         // === Primary — Deep Ocean Navy (token name: clay) ===
         clay: {
-          DEFAULT: "#0B3D5C",      // primary — deep ocean navy
-          dark: "#072B41",
-          light: "#155779",
-          50: "#EAF1F5",
-          100: "#C9DEEA",
-          200: "#94BCD3",
-          300: "#5E97B8",
-          400: "#2F769B",
-          500: "#155779",
-          600: "#0B3D5C",
-          700: "#072B41",
-          800: "#041C2B",
-          900: "#02101A",
+          DEFAULT: "#134E3A",      // primary — deep pine green (was ocean navy)
+          dark: "#0D3A2B",
+          light: "#1D6B50",
+          50: "#ECF5F1",
+          100: "#CDE6DB",
+          200: "#9CCBB7",
+          300: "#66AE8F",
+          400: "#358C6B",
+          500: "#1D6B50",
+          600: "#134E3A",
+          700: "#0D3A2B",
+          800: "#082519",
+          900: "#04150E",
         },
         // === Secondary — Sunset Coral (token name: sage) ===
         sage: {
@@ -64,9 +64,9 @@ const config: Config = {
           600: "#9C7829",
         },
         // === Text ===
-        espresso: "#0E2230",       // headings (deep navy-charcoal ink)
-        cocoa: "#36495A",          // body (slate-navy)
-        mocha: "#6B7B89",          // muted (slate)
+        espresso: "#1C1A17",       // headings (deep navy-charcoal ink)
+        cocoa: "#3F3A35",          // body (slate-navy)
+        mocha: "#6B625A",          // muted (slate)
         // === Borders / dividers ===
         adobe: "#DEE2E0",          // soft sand border
         adobeDark: "#CDD3D1",
@@ -85,17 +85,17 @@ const config: Config = {
         "sunrise-bands":
           "linear-gradient(180deg, #FBF8F3 0%, #F0EBE3 40%, #FBF1E6 70%, #FBF8F3 100%)",
         "warm-radial":
-          "radial-gradient(circle at 30% 20%, rgba(231,111,81,0.10) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(11,61,92,0.07) 0%, transparent 55%)",
-        "clay-gradient": "linear-gradient(135deg, #0B3D5C 0%, #155779 100%)",
+          "radial-gradient(circle at 30% 20%, rgba(231,111,81,0.10) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(19,78,58,0.07) 0%, transparent 55%)",
+        "clay-gradient": "linear-gradient(135deg, #134E3A 0%, #1D6B50 100%)",
         "sage-gradient": "linear-gradient(135deg, #E76F51 0%, #F08C73 100%)",
         "gold-gradient": "linear-gradient(135deg, #E9C46A 0%, #F1D89A 100%)",
       },
       boxShadow: {
-        warm: "0 10px 40px -15px rgba(11, 61, 92, 0.20), 0 4px 12px -6px rgba(14, 34, 48, 0.08)",
-        "warm-lg": "0 30px 70px -20px rgba(11, 61, 92, 0.25), 0 10px 30px -10px rgba(14, 34, 48, 0.10)",
-        card: "0 2px 8px -2px rgba(14, 34, 48, 0.06), 0 1px 3px -1px rgba(14, 34, 48, 0.04)",
-        "card-hover": "0 20px 50px -15px rgba(11, 61, 92, 0.22), 0 8px 20px -8px rgba(14, 34, 48, 0.10)",
-        arch: "inset 0 -8px 30px -10px rgba(11, 61, 92, 0.10)",
+        warm: "0 10px 40px -15px rgba(19, 78, 58, 0.20), 0 4px 12px -6px rgba(28, 26, 23, 0.08)",
+        "warm-lg": "0 30px 70px -20px rgba(19, 78, 58, 0.25), 0 10px 30px -10px rgba(28, 26, 23, 0.10)",
+        card: "0 2px 8px -2px rgba(28, 26, 23, 0.06), 0 1px 3px -1px rgba(28, 26, 23, 0.04)",
+        "card-hover": "0 20px 50px -15px rgba(19, 78, 58, 0.22), 0 8px 20px -8px rgba(28, 26, 23, 0.10)",
+        arch: "inset 0 -8px 30px -10px rgba(19, 78, 58, 0.10)",
       },
       keyframes: {
         "fade-up": {
