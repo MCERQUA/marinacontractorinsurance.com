@@ -17,7 +17,7 @@ export const SITE = {
   founded: 2005,
   npn: "8608479",
   address: {
-    street: "12220 E Riggs Road, Suite #105",
+    street: "12220 E Riggs Road, Suite #104",
     city: "Chandler",
     state: "AZ",
     zip: "85249",
@@ -188,26 +188,3 @@ export const STATS = [
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
 
-export const TESTIMONIALS = [
-  {
-    quote:
-      "Every marina we build for needs a GL certificate with over-water coverage, and our old broker kept handing us policies that excluded the actual work. CCA placed real marine GL with Jones Act and USL&H wrapped in, and we finally have a program that covers a crew on a barge — not just a crew on dirt.",
-    name: "Captain Dan R.",
-    role: "Marine Construction Owner",
-    location: "Florida",
-  },
-  {
-    quote:
-      "When a crane on our barge went over during a pile-driving job, the equipment floater CCA set up paid out fast and kept the project moving. They actually understand marine gear — barges, pile drivers, dredges — which no generic broker did.",
-    name: "Marcus T.",
-    role: "Operations Manager",
-    location: "Louisiana",
-  },
-  {
-    quote:
-      "We were carrying plain workers' comp and had no idea our pile-driving crew on navigable water wasn't covered — it needed USL&H. CCA found the gap, fixed it, and built a coordinated program across our landside and over-water operations. That call probably saved our business.",
-    name: "Tyler J.",
-    role: "Dock & Pier Contractor",
-    location: "Maryland",
-  },
-] as const;
